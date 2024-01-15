@@ -11,6 +11,8 @@ public class MarioScript : MonoBehaviour
     public LayerMask groundMask; // MASCARA DE COLISIONES con la que queremos que el rayo se quiera chocar
 
     private Rigidbody2D rb;
+    private SpriteRenderer _rend;
+    private Animator _animator;
     private Vector2 dir;
     private bool _intentionToJump;//pueda o no que tenga la intencion de saltar
 
@@ -18,6 +20,8 @@ public class MarioScript : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        _rend = GetComponent<SpriteRenderer>();
+        _animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -26,10 +30,12 @@ public class MarioScript : MonoBehaviour
         dir = Vector2.zero;
         if(Input.GetKey(rightKey))
         {
+            _rend.flipX = false;
             dir = Vector2.right;
         }
         else if(Input.GetKey(leftKey))
         {
+            _rend.flipX = true;
             dir = new Vector2(-1, 0);
         }
 
@@ -37,6 +43,18 @@ public class MarioScript : MonoBehaviour
         if(Input.GetKey(jumpKey))
         {
             _intentionToJump = true;
+        }
+
+        //ANIMACIONES
+        if(dir != Vector2.zero)
+        {
+            //estamos andando
+            _animator.SetBool("iswalking", true);
+        }
+        else
+        {
+            //estamos paarados
+            _animator.SetBool("iswalking", false);
         }
     }
 
