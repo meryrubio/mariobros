@@ -1,0 +1,1746 @@
+fileFormatVersion: 2
+guid: a09d755032f716f4f95e07973dbd47de
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: todo_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1163
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77359f3bc4c2b8c41950df3116317140
+      internalID: 1898350307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1213
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6175130cb68aacc4295221e4f26abc9c
+      internalID: -1537126104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_2
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1164
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e52c8a4487738e4f95f5c08a59fe28c
+      internalID: -1342524612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_3
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1211
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f1e099971d9114cbb371e1c5c0d0df
+      internalID: 964709942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1163
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e05348ee48a9e444a520ce1fe37cd4f
+      internalID: 567515496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_5
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1213
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61c7da56b45ddb48beed676e2c22a61
+      internalID: -752980169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1163
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f75ae7a33cb4a468d21534ab36dbe8
+      internalID: -206390834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_7
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1212
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf208c2d062f804419d6d78919084cd2
+      internalID: 682781003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_8
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1163
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9736d87cde4cfe4c8cf58caa5c923a8
+      internalID: 249853977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_9
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1211
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5f72bb08c924d409cb592f39189b5e
+      internalID: -1063483390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_10
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1164
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b743fc1b93a8be45bdbbe6b917a8311
+      internalID: 1801289943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_11
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1162
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80deb134bcbc97b4193013bbc0f1c0a8
+      internalID: -701772462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_12
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1163
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6aeb25249494b41b3f6cd767526b7f
+      internalID: 964770431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_13
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1216
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e5b26c6edca314c981d0e83d950cf3
+      internalID: -2112462608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_14
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1206
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8c85123ba4ad847b2b69c5d57aecba
+      internalID: -1353863362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_15
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1205
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0ca4d71c996204a9fcfe8306aaefa9
+      internalID: -330502933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_16
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1206
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1dd1681841f44a48a0ab7eed991a5c1
+      internalID: -784231988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_17
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1205
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49e84f4714bee24ca50f7fca8dbb05f
+      internalID: -865511806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_18
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 1209
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71bde5a8ceeeff478b4676eb7276a15
+      internalID: -1160379421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_19
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1202
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df5f148ce7103c4f8ca2003c7cae497
+      internalID: 803158259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_20
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 1205
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ceca2f44d19a2146a47beeb1a863eb7
+      internalID: 1229913027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_21
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1038
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79953e8ada2ac934c87a64733a10a203
+      internalID: 2065430777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_22
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1038
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6047aebbbbb6bbf4e912ba79b7c70453
+      internalID: -889354152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1034
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06818076445ba8d4b8491d7e47b19d1b
+      internalID: -12730457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_24
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1034
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c3e76f7da97904d9145f7baed5562f
+      internalID: -1980964763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_25
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1038
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ed7298401f3f0418762bbe6bdff82f
+      internalID: -515618829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_26
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1038
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae7635fafeb09044bf4341e127044cc
+      internalID: -1628681316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_27
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1038
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ae8a02caf06684fb01280bc6449a9d
+      internalID: -562380081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_28
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 913
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aaad6a37f74e7d4ab72cee8799bd571
+      internalID: 1224919178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_29
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 910
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67443e5ffb963ed49bc1bd1e1cef9fa3
+      internalID: 1267032101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_30
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 913
+        width: 58
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6a6aec5d8e2ca49af4089b74a2588f
+      internalID: -243354087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_31
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 913
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3da34a1d334dd46a4756aa6011fc6b
+      internalID: 1385921123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_32
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 913
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3084706300db64b887619d05ad20a6
+      internalID: 1555348046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_33
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 913
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fc4f66d9d7a514198ac7323d05a2db
+      internalID: 172609793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_34
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 913
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef8ee7cc11a01248b73fc8f0a6d3077
+      internalID: 2098304353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_35
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 913
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4966161b353dc3642bedfb8ea65e231b
+      internalID: 53371631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_36
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 781
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45a9d3f43dae0647818e47f9e3b7217
+      internalID: 1361780277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_37
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 781
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076ef6a4faca77a47b3fb64539e0f1ea
+      internalID: 2103650503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_38
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 781
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59876eb78308f934cbeb24f23a386885
+      internalID: 751163446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_39
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 781
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be9dbd24fd655b48ae5064db81b4944
+      internalID: 24445268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_40
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 781
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3dab73281664e4abbed50351746aca
+      internalID: 1565488515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_41
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 779
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5d8871eeeadfd4b84241b4a12fc345
+      internalID: -788488313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_42
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 779
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bd2ded39edd89409508ae0ff41048b
+      internalID: -220805724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_43
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 779
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf53d9bff20999143937d8532c21fac5
+      internalID: -1098678458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_44
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 781
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5def57e5c69e13c4abb2833bbd373ae0
+      internalID: 1616915868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_45
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 780
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a8fcee3c471244dbf715e890d4d1f6
+      internalID: -1894270383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_46
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 780
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268f5ed98d8fff747950a78903a64fc7
+      internalID: -1169195527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_47
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 778
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c3be2dafeed2949a5422764f2f95d5
+      internalID: 523367142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_48
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 779
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cac6e5c739bd004b9590ea41e27c945
+      internalID: -661644879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: todo_49
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 781
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c68cc6ea43a34418214615a727a784
+      internalID: 187496549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape:
+    - - {x: 643, y: 126.5}
+      - {x: 596, y: 126.5}
+      - {x: 588, y: 115.5}
+      - {x: 588, y: 78.5}
+      - {x: 594, y: 69.5}
+      - {x: 602, y: 69.5}
+      - {x: 607, y: 71.5}
+      - {x: 607, y: 76.5}
+      - {x: 608, y: 70.5}
+      - {x: 611, y: 67.5}
+      - {x: 635, y: 67.5}
+      - {x: 648, y: 70.5}
+      - {x: 650, y: 77.5}
+      - {x: 650, y: 122.5}
+    - - {x: -170, y: 127.5}
+      - {x: -176, y: 122.5}
+      - {x: -176, y: 77.5}
+      - {x: -175, y: 68.5}
+      - {x: -122, y: 68.5}
+      - {x: -114, y: 69.5}
+      - {x: -114, y: 125.5}
+      - {x: -124, y: 127.5}
+    - - {x: -43, y: 125.5}
+      - {x: -50, y: 119.5}
+      - {x: -50, y: 68.5}
+      - {x: -45, y: 68.5}
+      - {x: -36, y: 69.5}
+      - {x: -31, y: 73.5}
+      - {x: -30, y: 71.5}
+      - {x: -28, y: 68.5}
+      - {x: 12, y: 68.5}
+      - {x: 12, y: 116.5}
+      - {x: 6, y: 125.5}
+    - - {x: 84, y: 127.5}
+      - {x: 80, y: 126.5}
+      - {x: 80, y: 90.5}
+      - {x: 85, y: 69.5}
+      - {x: 94, y: 70.5}
+      - {x: 99, y: 72.5}
+      - {x: 99, y: 77.5}
+      - {x: 100, y: 71.5}
+      - {x: 103, y: 68.5}
+      - {x: 127, y: 68.5}
+      - {x: 140, y: 71.5}
+      - {x: 142, y: 72.5}
+      - {x: 142, y: 127.5}
+    - - {x: 718, y: 68.5}
+      - {x: 780, y: 68.5}
+      - {x: 780, y: 125.5}
+      - {x: 728, y: 125.5}
+      - {x: 718, y: 119.5}
+    - - {x: 391, y: 128.5}
+      - {x: 344, y: 128.5}
+      - {x: 336, y: 117.5}
+      - {x: 336, y: 80.5}
+      - {x: 342, y: 71.5}
+      - {x: 350, y: 71.5}
+      - {x: 355, y: 73.5}
+      - {x: 355, y: 78.5}
+      - {x: 356, y: 72.5}
+      - {x: 359, y: 69.5}
+      - {x: 383, y: 69.5}
+      - {x: 396, y: 72.5}
+      - {x: 398, y: 79.5}
+      - {x: 398, y: 124.5}
+    - - {x: 462, y: 69.5}
+      - {x: 524, y: 69.5}
+      - {x: 524, y: 126.5}
+      - {x: 472, y: 126.5}
+      - {x: 462, y: 120.5}
+    - - {x: -807, y: 129.5}
+      - {x: -818, y: 115.5}
+      - {x: -818, y: 83.5}
+      - {x: -812, y: 72.5}
+      - {x: -804, y: 72.5}
+      - {x: -799, y: 74.5}
+      - {x: -799, y: 79.5}
+      - {x: -798, y: 73.5}
+      - {x: -795, y: 70.5}
+      - {x: -771, y: 70.5}
+      - {x: -758, y: 73.5}
+      - {x: -756, y: 73.5}
+      - {x: -756, y: 129.5}
+    - - {x: -632, y: 127.5}
+      - {x: -681, y: 127.5}
+      - {x: -685, y: 126.5}
+      - {x: -690, y: 114.5}
+      - {x: -690, y: 86.5}
+      - {x: -685, y: 71.5}
+      - {x: -682, y: 70.5}
+      - {x: -643, y: 70.5}
+      - {x: -630, y: 73.5}
+      - {x: -628, y: 75.5}
+      - {x: -628, y: 119.5}
+    - - {x: -562, y: 129.5}
+      - {x: -562, y: 70.5}
+      - {x: -501, y: 70.5}
+      - {x: -500, y: 74.5}
+      - {x: -500, y: 122.5}
+      - {x: -503, y: 129.5}
+    - - {x: -388, y: 129.5}
+      - {x: -426, y: 129.5}
+      - {x: -435, y: 112.5}
+      - {x: -435, y: 89.5}
+      - {x: -429, y: 72.5}
+      - {x: -427, y: 70.5}
+      - {x: -381, y: 70.5}
+      - {x: -373, y: 71.5}
+      - {x: -373, y: 113.5}
+      - {x: -374, y: 120.5}
+    - - {x: -296, y: 127.5}
+      - {x: -303, y: 111.5}
+      - {x: -303, y: 81.5}
+      - {x: -297, y: 72.5}
+      - {x: -294, y: 70.5}
+      - {x: -241, y: 70.5}
+      - {x: -241, y: 123.5}
+      - {x: -252, y: 127.5}
+    - - {x: 206, y: 70.5}
+      - {x: 268, y: 70.5}
+      - {x: 268, y: 127.5}
+      - {x: 216, y: 127.5}
+      - {x: 206, y: 121.5}
+    - - {x: 903, y: 129.5}
+      - {x: 856, y: 129.5}
+      - {x: 848, y: 118.5}
+      - {x: 848, y: 81.5}
+      - {x: 854, y: 72.5}
+      - {x: 862, y: 72.5}
+      - {x: 867, y: 74.5}
+      - {x: 867, y: 79.5}
+      - {x: 868, y: 73.5}
+      - {x: 871, y: 70.5}
+      - {x: 895, y: 70.5}
+      - {x: 908, y: 73.5}
+      - {x: 910, y: 80.5}
+      - {x: 910, y: 125.5}
+    - - {x: 633, y: 82.5}
+      - {x: 632, y: 83.5}
+      - {x: 635, y: 83.5}
+      - {x: 635, y: 80.5}
+      - {x: 634, y: 79.5}
+      - {x: 633, y: 79.5}
+    - - {x: -131, y: 83.5}
+      - {x: -132, y: 84.5}
+      - {x: -129, y: 84.5}
+      - {x: -129, y: 81.5}
+      - {x: -130, y: 80.5}
+      - {x: -131, y: 80.5}
+    - - {x: 125, y: 83.5}
+      - {x: 124, y: 84.5}
+      - {x: 127, y: 84.5}
+      - {x: 127, y: 81.5}
+      - {x: 126, y: 80.5}
+      - {x: 125, y: 80.5}
+    - - {x: -3, y: 82.5}
+      - {x: -3, y: 81.5}
+      - {x: -2, y: 81.5}
+    - - {x: 381, y: 84.5}
+      - {x: 380, y: 85.5}
+      - {x: 383, y: 85.5}
+      - {x: 383, y: 82.5}
+      - {x: 382, y: 81.5}
+      - {x: 381, y: 81.5}
+    - - {x: 765, y: 82.5}
+      - {x: 765, y: 81.5}
+      - {x: 766, y: 81.5}
+    - - {x: -773, y: 85.5}
+      - {x: -774, y: 86.5}
+      - {x: -771, y: 86.5}
+      - {x: -771, y: 83.5}
+      - {x: -772, y: 82.5}
+      - {x: -773, y: 82.5}
+    - - {x: -517, y: 85.5}
+      - {x: -518, y: 86.5}
+      - {x: -515, y: 86.5}
+      - {x: -515, y: 83.5}
+      - {x: -516, y: 82.5}
+      - {x: -517, y: 82.5}
+    - - {x: -390, y: 85.5}
+      - {x: -391, y: 86.5}
+      - {x: -388, y: 86.5}
+      - {x: -388, y: 83.5}
+      - {x: -389, y: 82.5}
+      - {x: -390, y: 82.5}
+    - - {x: 509, y: 83.5}
+      - {x: 509, y: 82.5}
+      - {x: 510, y: 82.5}
+    - - {x: 893, y: 85.5}
+      - {x: 892, y: 86.5}
+      - {x: 895, y: 86.5}
+      - {x: 895, y: 83.5}
+      - {x: 894, y: 82.5}
+      - {x: 893, y: 82.5}
+    - - {x: -643, y: 84.5}
+      - {x: -643, y: 83.5}
+      - {x: -642, y: 83.5}
+    - - {x: -256, y: 84.5}
+      - {x: -256, y: 83.5}
+      - {x: -255, y: 83.5}
+    - - {x: 253, y: 84.5}
+      - {x: 253, y: 83.5}
+      - {x: 254, y: 83.5}
+    - - {x: -678, y: 255.5}
+      - {x: -682, y: 251.5}
+      - {x: -690, y: 240.5}
+      - {x: -690, y: 217.5}
+      - {x: -678, y: 199.5}
+      - {x: -628, y: 199.5}
+      - {x: -623, y: 201.5}
+      - {x: -623, y: 251.5}
+      - {x: -646, y: 255.5}
+    - - {x: -807, y: 261.5}
+      - {x: -818, y: 247.5}
+      - {x: -818, y: 215.5}
+      - {x: -812, y: 204.5}
+      - {x: -804, y: 204.5}
+      - {x: -799, y: 206.5}
+      - {x: -799, y: 211.5}
+      - {x: -798, y: 205.5}
+      - {x: -795, y: 202.5}
+      - {x: -771, y: 202.5}
+      - {x: -758, y: 205.5}
+      - {x: -756, y: 205.5}
+      - {x: -756, y: 261.5}
+    - - {x: -499, y: 219.5}
+      - {x: -499, y: 243.5}
+      - {x: -508, y: 255.5}
+      - {x: -547, y: 255.5}
+      - {x: -561, y: 245.5}
+      - {x: -561, y: 215.5}
+      - {x: -547, y: 202.5}
+      - {x: -515, y: 202.5}
+      - {x: -512, y: 205.5}
+      - {x: -512, y: 210.5}
+      - {x: -503, y: 211.5}
+    - - {x: -427, y: 249.5}
+      - {x: -433, y: 235.5}
+      - {x: -433, y: 209.5}
+      - {x: -423, y: 202.5}
+      - {x: -382, y: 202.5}
+      - {x: -371, y: 205.5}
+      - {x: -371, y: 243.5}
+      - {x: -378, y: 249.5}
+    - - {x: -295, y: 244.5}
+      - {x: -305, y: 230.5}
+      - {x: -305, y: 209.5}
+      - {x: -301, y: 202.5}
+      - {x: -245, y: 202.5}
+      - {x: -243, y: 206.5}
+      - {x: -243, y: 233.5}
+      - {x: -253, y: 244.5}
+    - - {x: -167, y: 244.5}
+      - {x: -177, y: 230.5}
+      - {x: -177, y: 209.5}
+      - {x: -173, y: 202.5}
+      - {x: -117, y: 202.5}
+      - {x: -115, y: 206.5}
+      - {x: -115, y: 233.5}
+      - {x: -125, y: 244.5}
+    - - {x: -39, y: 244.5}
+      - {x: -49, y: 230.5}
+      - {x: -49, y: 209.5}
+      - {x: -45, y: 202.5}
+      - {x: 11, y: 202.5}
+      - {x: 13, y: 206.5}
+      - {x: 13, y: 233.5}
+      - {x: 3, y: 244.5}
+    - - {x: 86, y: 244.5}
+      - {x: 79, y: 226.5}
+      - {x: 79, y: 206.5}
+      - {x: 84, y: 202.5}
+      - {x: 138, y: 202.5}
+      - {x: 141, y: 212.5}
+      - {x: 141, y: 231.5}
+      - {x: 135, y: 244.5}
+    - - {x: -773, y: 217.5}
+      - {x: -774, y: 218.5}
+      - {x: -771, y: 218.5}
+      - {x: -771, y: 215.5}
+      - {x: -772, y: 214.5}
+      - {x: -773, y: 214.5}
+    - - {x: -435, y: 386.5}
+      - {x: -435, y: 346.5}
+      - {x: -404, y: 323.5}
+      - {x: -373, y: 323.5}
+      - {x: -373, y: 386.5}
+    - - {x: -557, y: 385.5}
+      - {x: -563, y: 376.5}
+      - {x: -563, y: 338.5}
+      - {x: -548, y: 324.5}
+      - {x: -523, y: 324.5}
+      - {x: -495, y: 349.5}
+      - {x: -495, y: 373.5}
+      - {x: -503, y: 385.5}
+    - - {x: -776, y: 386.5}
+      - {x: -803, y: 386.5}
+      - {x: -818, y: 380.5}
+      - {x: -818, y: 340.5}
+      - {x: -816, y: 327.5}
+      - {x: -765, y: 327.5}
+      - {x: -757, y: 328.5}
+      - {x: -756, y: 329.5}
+      - {x: -756, y: 378.5}
+      - {x: -767, y: 384.5}
+    - - {x: -679, y: 386.5}
+      - {x: -687, y: 383.5}
+      - {x: -687, y: 332.5}
+      - {x: -686, y: 328.5}
+      - {x: -670, y: 329.5}
+      - {x: -666, y: 336.5}
+      - {x: -666, y: 339.5}
+      - {x: -661, y: 339.5}
+      - {x: -667, y: 333.5}
+      - {x: -667, y: 331.5}
+      - {x: -666, y: 327.5}
+      - {x: -625, y: 327.5}
+      - {x: -625, y: 385.5}
+      - {x: -627, y: 386.5}
+    - - {x: -302, y: 386.5}
+      - {x: -306, y: 369.5}
+      - {x: -306, y: 338.5}
+      - {x: -304, y: 329.5}
+      - {x: -289, y: 329.5}
+      - {x: -285, y: 336.5}
+      - {x: -285, y: 339.5}
+      - {x: -280, y: 339.5}
+      - {x: -286, y: 334.5}
+      - {x: -286, y: 327.5}
+      - {x: -247, y: 327.5}
+      - {x: -244, y: 328.5}
+      - {x: -244, y: 378.5}
+      - {x: -246, y: 386.5}
+    - - {x: -175, y: 386.5}
+      - {x: -175, y: 334.5}
+      - {x: -171, y: 332.5}
+      - {x: -158, y: 329.5}
+      - {x: -154, y: 336.5}
+      - {x: -154, y: 339.5}
+      - {x: -149, y: 339.5}
+      - {x: -155, y: 334.5}
+      - {x: -155, y: 327.5}
+      - {x: -113, y: 327.5}
+      - {x: -113, y: 380.5}
+      - {x: -120, y: 386.5}
+    - - {x: -42, y: 386.5}
+      - {x: -51, y: 376.5}
+      - {x: -51, y: 337.5}
+      - {x: -44, y: 327.5}
+      - {x: 11, y: 327.5}
+      - {x: 11, y: 384.5}
+      - {x: 0, y: 385.5}
+      - {x: -8, y: 386.5}
+    - - {x: -773, y: 342.5}
+      - {x: -774, y: 343.5}
+      - {x: -771, y: 343.5}
+      - {x: -771, y: 340.5}
+      - {x: -772, y: 339.5}
+      - {x: -773, y: 339.5}
+    - - {x: -6, y: 342.5}
+      - {x: -7, y: 343.5}
+      - {x: -4, y: 343.5}
+      - {x: -4, y: 340.5}
+      - {x: -5, y: 339.5}
+      - {x: -6, y: 339.5}
+    - - {x: 10, y: 512.5}
+      - {x: 9, y: 512.5}
+      - {x: 6, y: 509.5}
+      - {x: 5, y: 505.5}
+      - {x: 7, y: 501.5}
+      - {x: 7, y: 502.5}
+      - {x: 2, y: 509.5}
+      - {x: 1, y: 512.5}
+      - {x: -40, y: 512.5}
+      - {x: -50, y: 509.5}
+      - {x: -50, y: 471.5}
+      - {x: -41, y: 451.5}
+      - {x: 4, y: 451.5}
+      - {x: 14, y: 454.5}
+      - {x: 16, y: 488.5}
+      - {x: 16, y: 507.5}
+    - - {x: -811, y: 513.5}
+      - {x: -819, y: 498.5}
+      - {x: -819, y: 460.5}
+      - {x: -814, y: 452.5}
+      - {x: -753, y: 452.5}
+      - {x: -753, y: 513.5}
+    - - {x: -556, y: 515.5}
+      - {x: -563, y: 500.5}
+      - {x: -563, y: 464.5}
+      - {x: -552, y: 452.5}
+      - {x: -502, y: 452.5}
+      - {x: -496, y: 462.5}
+      - {x: -496, y: 515.5}
+    - - {x: -379, y: 513.5}
+      - {x: -384, y: 509.5}
+      - {x: -378, y: 501.5}
+      - {x: -382, y: 506.5}
+      - {x: -388, y: 511.5}
+      - {x: -402, y: 513.5}
+      - {x: -418, y: 513.5}
+      - {x: -435, y: 503.5}
+      - {x: -435, y: 467.5}
+      - {x: -433, y: 452.5}
+      - {x: -376, y: 452.5}
+      - {x: -367, y: 491.5}
+      - {x: -367, y: 510.5}
+      - {x: -368, y: 513.5}
+    - - {x: -265, y: 452.5}
+      - {x: -254, y: 452.5}
+      - {x: -244, y: 456.5}
+      - {x: -240, y: 476.5}
+      - {x: -240, y: 513.5}
+      - {x: -296, y: 513.5}
+      - {x: -306, y: 494.5}
+      - {x: -306, y: 455.5}
+      - {x: -295, y: 454.5}
+      - {x: -292, y: 458.5}
+      - {x: -288, y: 452.5}
+      - {x: -272, y: 452.5}
+      - {x: -271, y: 454.5}
+      - {x: -271, y: 458.5}
+      - {x: -274, y: 461.5}
+    - - {x: 82, y: 511.5}
+      - {x: 77, y: 508.5}
+      - {x: 77, y: 469.5}
+      - {x: 81, y: 452.5}
+      - {x: 135, y: 452.5}
+      - {x: 143, y: 474.5}
+      - {x: 143, y: 506.5}
+      - {x: 135, y: 511.5}
+    - - {x: -633, y: 512.5}
+      - {x: -636, y: 508.5}
+      - {x: -636, y: 504.5}
+      - {x: -637, y: 512.5}
+      - {x: -681, y: 512.5}
+      - {x: -689, y: 502.5}
+      - {x: -689, y: 453.5}
+      - {x: -625, y: 453.5}
+      - {x: -625, y: 512.5}
+    - - {x: -157, y: 454.5}
+      - {x: -154, y: 453.5}
+      - {x: -111, y: 453.5}
+      - {x: -111, y: 514.5}
+      - {x: -165, y: 514.5}
+      - {x: -179, y: 501.5}
+      - {x: -179, y: 453.5}
+      - {x: -163, y: 453.5}
+      - {x: -162, y: 456.5}
+      - {x: -162, y: 460.5}
+    - - {x: -541, y: 465.5}
+      - {x: -544, y: 467.5}
+      - {x: -541, y: 467.5}
+      - {x: -541, y: 464.5}
+      - {x: -539, y: 461.5}
+      - {x: -538, y: 461.5}
+    - - {x: -641, y: 465.5}
+      - {x: -643, y: 466.5}
+      - {x: -643, y: 465.5}
+      - {x: -641, y: 463.5}
+    - - {x: -30, y: 464.5}
+      - {x: -30, y: 465.5}
+      - {x: -31, y: 466.5}
+      - {x: -27, y: 466.5}
+      - {x: -28, y: 465.5}
+      - {x: -27, y: 463.5}
+      - {x: -28, y: 464.5}
+    - - {x: -801, y: 466.5}
+      - {x: -797, y: 467.5}
+      - {x: -800, y: 464.5}
+      - {x: -801, y: 464.5}
+    - - {x: -773, y: 466.5}
+      - {x: -771, y: 464.5}
+      - {x: -771, y: 465.5}
+    - - {x: -390, y: 468.5}
+      - {x: -388, y: 468.5}
+      - {x: -388, y: 467.5}
+      - {x: -389, y: 467.5}
+    - - {x: 122, y: 468.5}
+      - {x: 124, y: 468.5}
+      - {x: 123, y: 468.5}
+      - {x: 122, y: 467.5}
+      - {x: 123, y: 467.5}
+    - - {x: -416, y: 469.5}
+      - {x: -416, y: 468.5}
+      - {x: -412, y: 469.5}
+      - {x: -413, y: 468.5}
+      - {x: -414, y: 469.5}
+    - - {x: 99, y: 469.5}
+      - {x: 96, y: 469.5}
+      - {x: 96, y: 468.5}
+    - - {x: 127, y: 512.5}
+      - {x: 127, y: 509.5}
+      - {x: 129, y: 505.5}
+      - {x: 132, y: 505.5}
+      - {x: 135, y: 506.5}
+      - {x: 135, y: 510.5}
+      - {x: 133, y: 512.5}
+      - {x: 129, y: 513.5}
+    - - {x: 140, y: 513.5}
+      - {x: 137, y: 512.5}
+      - {x: 137, y: 508.5}
+      - {x: 139, y: 506.5}
+      - {x: 143, y: 506.5}
+      - {x: 145, y: 507.5}
+      - {x: 145, y: 513.5}
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      todo_0: 1898350307
+      todo_1: -1537126104
+      todo_10: 1801289943
+      todo_11: -701772462
+      todo_12: 964770431
+      todo_13: -2112462608
+      todo_14: -1353863362
+      todo_15: -330502933
+      todo_16: -784231988
+      todo_17: -865511806
+      todo_18: -1160379421
+      todo_19: 803158259
+      todo_2: -1342524612
+      todo_20: 1229913027
+      todo_21: 2065430777
+      todo_22: -889354152
+      todo_23: -12730457
+      todo_24: -1980964763
+      todo_25: -515618829
+      todo_26: -1628681316
+      todo_27: -562380081
+      todo_28: 1224919178
+      todo_29: 1267032101
+      todo_3: 964709942
+      todo_30: -243354087
+      todo_31: 1385921123
+      todo_32: 1555348046
+      todo_33: 172609793
+      todo_34: 2098304353
+      todo_35: 53371631
+      todo_36: 1361780277
+      todo_37: 2103650503
+      todo_38: 751163446
+      todo_39: 24445268
+      todo_4: 567515496
+      todo_40: 1565488515
+      todo_41: -788488313
+      todo_42: -220805724
+      todo_43: -1098678458
+      todo_44: 1616915868
+      todo_45: -1894270383
+      todo_46: -1169195527
+      todo_47: 523367142
+      todo_48: -661644879
+      todo_49: 187496549
+      todo_5: -752980169
+      todo_6: -206390834
+      todo_7: 682781003
+      todo_8: 249853977
+      todo_9: -1063483390
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

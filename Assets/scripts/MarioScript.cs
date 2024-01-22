@@ -60,18 +60,23 @@ public class MarioScript : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(dir != Vector2.zero)
+        bool grnd = IsGrounded();
+        //if(dir != Vector2.zero) 
         {
-            float currentYVel = rb.velocity.y; // si estas en movimiento y caes, caigas a la misma velocidad que te mueves.
+            float currentYVel = rb.velocity.y; // si estas en movimiento y caes, caes a la misma velocidad que te mueves.
             Vector2 nVel = dir * speed;
+            nVel.y = currentYVel; // almacenar la velocidad en y para que no flote
             rb.velocity = nVel;
             
         }
         
         if(_intentionToJump && IsGrounded()) //lo mete en el fixe update por fisicas
         {
-            rb.AddForce(Vector2.up * jumpForce * rb.gravityScale, ForceMode2D.Impulse);
+            _animator.Play("jump");// necesitamos esto ya que somos nosotros los que iniciamos el salto
+            rb.velocity = new Vector2(rb.velocity.x, 0); // sirve para que el personaje mantenga siempre la misma potencia de salto  (100,-100)
+            rb.AddForce(Vector2.up * jumpForce * rb.gravityScale * rb.drag, ForceMode2D.Impulse); // rb.drag es la linea de rozqamiento, por lo que al multiplicar por ella no desliza el personaje.
         }
+        _animator.SetBool("walkanim", grnd);
     }
 
     private bool IsGrounded() // se lanza un rayo desde el personaje hacia bajo y va a detectar la mascara de colisiones que hemos establecido(detectar el suelo)
