@@ -22,7 +22,7 @@ public class camera : MonoBehaviour
 
     void LateUpdate()
     {
-        // la camara se centrara automaticamente en el personaje y si no esta centra lo hara en el reinicio de la partida.
+        // la camara se centrara automaticamente en el personaje (a 5 de velocidad) y si no esta centrada lo hara en el reinicio de la partida y siga al personaje en x
        transform.position =Vector3.MoveTowards(transform.position, new Vector3(player.position.x, transform.position.y, -5f), 5f * Time.deltaTime);
     }
 }

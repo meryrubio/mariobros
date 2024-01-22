@@ -1,16 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class goomba : MonoBehaviour
 {
-
-
+    public float speed;
+    public Transform esqueleto;
+    private SpriteRenderer _rend;// se asigna el Transform del esqueleto desde el inspector en el script del goomba
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        _rend = GetComponent<SpriteRenderer>();
+
 
     }
 
@@ -18,5 +22,35 @@ public class goomba : MonoBehaviour
     void Update()
     {
 
+        if (esqueleto != null) //asegurarse de que la variable esqueleto (que es del tipo Transform) no sea nula
+        {
+            // Compara las posiciones en el eje X y mueve al Goomba hacia el esqueleto
+            if (transform.position.x < esqueleto.position.x) 
+            {
+                // Mueve hacia la derecha
+                transform.Translate(Vector2.right * speed * Time.deltaTime);
+                _rend.flipX = false;
+            }
+            // si la posisicion del goomba es menor que la del esqueleto (es decir el goomba esta a la izquierda del esqueleto) queremos que se mueva a la derecha
+
+            else if (transform.position.x > esqueleto.position.x)
+            {
+                // Mueve hacia la izquierda
+                transform.Translate(Vector2.left * speed * Time.deltaTime);
+                _rend.flipX = true;
+            }
+            // si la posisicion del goomba es mayor que la del esqueleto (es decir el goomba esta a la derecha del esqueleto) queremos que se mueva a la izquierda
+        }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.GetComponent<MarioScript>()) // lo que se choca con el goomba es el esqueleto
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // reinicia la escena
+
+        }
+    }
+
+
 }

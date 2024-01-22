@@ -126,12 +126,12 @@ TextureImporter:
       name: nivel juego-Recuperado_0
       rect:
         serializedVersion: 2
-        x: 1983
-        y: 878
-        width: 195
-        height: 195
+        x: 1984
+        y: 880
+        width: 192
+        height: 192
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -147,12 +147,12 @@ TextureImporter:
       name: nivel juego-Recuperado_1
       rect:
         serializedVersion: 2
-        x: 2238
-        y: 878
-        width: 68
-        height: 195
+        x: 2240
+        y: 880
+        width: 64
+        height: 192
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -168,12 +168,12 @@ TextureImporter:
       name: nivel juego-Recuperado_2
       rect:
         serializedVersion: 2
-        x: 2366
-        y: 1006
-        width: 196
-        height: 67
+        x: 2368
+        y: 1008
+        width: 192
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,12 +189,12 @@ TextureImporter:
       name: nivel juego-Recuperado_3
       rect:
         serializedVersion: 2
-        x: 2366
-        y: 878
-        width: 69
-        height: 68
+        x: 2368
+        y: 880
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -210,12 +210,12 @@ TextureImporter:
       name: nivel juego-Recuperado_4
       rect:
         serializedVersion: 2
-        x: 1983
-        y: 623
-        width: 195
-        height: 195
+        x: 1984
+        y: 624
+        width: 192
+        height: 192
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -231,12 +231,12 @@ TextureImporter:
       name: nivel juego-Recuperado_5
       rect:
         serializedVersion: 2
-        x: 2238
-        y: 623
-        width: 68
-        height: 195
+        x: 2240
+        y: 624
+        width: 64
+        height: 192
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -252,12 +252,12 @@ TextureImporter:
       name: nivel juego-Recuperado_6
       rect:
         serializedVersion: 2
-        x: 2366
-        y: 749
-        width: 196
-        height: 69
+        x: 2368
+        y: 752
+        width: 192
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -279,12 +279,12 @@ TextureImporter:
       name: nivel juego-Recuperado_7
       rect:
         serializedVersion: 2
-        x: 2366
-        y: 623
-        width: 69
-        height: 66
+        x: 2368
+        y: 624
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -305,12 +305,12 @@ TextureImporter:
       name: nivel juego-Recuperado_8
       rect:
         serializedVersion: 2
-        x: 2109
-        y: 558
-        width: 64
-        height: 29
+        x: 2112
+        y: 560
+        width: 20
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -326,12 +326,12 @@ TextureImporter:
       name: nivel juego-Recuperado_9
       rect:
         serializedVersion: 2
-        x: 2180
-        y: 558
-        width: 29
-        height: 17
+        x: 2134
+        y: 560
+        width: 15
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -347,12 +347,12 @@ TextureImporter:
       name: nivel juego-Recuperado_10
       rect:
         serializedVersion: 2
-        x: 2217
-        y: 559
+        x: 2152
+        y: 560
         width: 19
-        height: 34
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -368,12 +368,12 @@ TextureImporter:
       name: nivel juego-Recuperado_11
       rect:
         serializedVersion: 2
-        x: 2125
-        y: 494
-        width: 24
-        height: 22
+        x: 2181
+        y: 560
+        width: 25
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -389,12 +389,12 @@ TextureImporter:
       name: nivel juego-Recuperado_12
       rect:
         serializedVersion: 2
-        x: 2152
-        y: 496
-        width: 24
-        height: 17
+        x: 2220
+        y: 562
+        width: 15
+        height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -402,6 +402,69 @@ TextureImporter:
       bones: []
       spriteID: 1743ad3f9c0bcdc4880893be090ed308
       internalID: -1183442324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nivel juego-Recuperado_13
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 496
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f0c89991f3d724fbecf93f2dc2d9aa
+      internalID: -1068559770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nivel juego-Recuperado_14
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 511
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979b568a7e5e3e041b92578698f59b7d
+      internalID: -1079231002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nivel juego-Recuperado_15
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 498
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f73aec5f3866fb4995a424dc1ce8dd7
+      internalID: 286622907
       vertices: []
       indices: 
       edges: []
@@ -422,6 +485,9 @@ TextureImporter:
       nivel juego-Recuperado_10: 1391371909
       nivel juego-Recuperado_11: 585267140
       nivel juego-Recuperado_12: -1183442324
+      nivel juego-Recuperado_13: -1068559770
+      nivel juego-Recuperado_14: -1079231002
+      nivel juego-Recuperado_15: 286622907
       nivel juego-Recuperado_2: -1870093322
       nivel juego-Recuperado_3: -1069640778
       nivel juego-Recuperado_4: 918774915

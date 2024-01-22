@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class MarioScript : MonoBehaviour
@@ -15,6 +16,8 @@ public class MarioScript : MonoBehaviour
     private Animator _animator;
     private Vector2 dir;
     private bool _intentionToJump;//pueda o no que tenga la intencion de saltar
+   
+
 
     // Start is called before the first frame update
     void Start()
@@ -22,24 +25,25 @@ public class MarioScript : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         _rend = GetComponent<SpriteRenderer>();
         _animator = GetComponent<Animator>();
+     
     }
 
     // Update is called once per frame
-    void Update()
+    void Update() //direccion del personaje en x y flip
     {
         dir = Vector2.zero;
-        if(Input.GetKey(rightKey))
+        if(Input.GetKey(rightKey)) //si pulsas flecha derecha se mueve a la derecha
         {
             _rend.flipX = false;
             dir = Vector2.right;
         }
-        else if(Input.GetKey(leftKey))
+        else if(Input.GetKey(leftKey)) //si pulsas flecha izquierda se mueve izquierda
         {
             _rend.flipX = true;
             dir = new Vector2(-1, 0);
         }
 
-        _intentionToJump = false;
+        _intentionToJump = false; //si pulsas espacio el personaje salta
         if(Input.GetKey(jumpKey))
         {
             _intentionToJump = true;
@@ -94,4 +98,10 @@ public class MarioScript : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawRay(transform.position, Vector2.down * rayDistance);
     }
+
+   
+
+
+
 }
+
