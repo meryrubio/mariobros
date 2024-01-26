@@ -51,6 +51,12 @@ public class goomba : MonoBehaviour
 
         }
     }
+    
+    // otra forma para que el goomba siga a mario
+    // es declarar las variables private GameObject target y public float speed;
+    // y luego en el Start:
+    // target = FindObjectOfType<MarioScript>.gameObject;
+
 
 
 }

@@ -13,3 +13,4 @@ public class head : MonoBehaviour
         }
     }
 }
+//SINGLENTON tiene dos caracteristicas, una es que solo tiene una instancia de esa clase en todo el juego, y la otra es que esa instancia es accesible a todo el mundo

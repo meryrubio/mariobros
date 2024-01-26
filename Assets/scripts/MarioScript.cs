@@ -31,6 +31,8 @@ public class MarioScript : MonoBehaviour
     // Update is called once per frame
     void Update() //direccion del personaje en x y flip
     {
+        print(GameManager.instance.GetTime()); //para que sea accesible desde cualquier parte del codigo
+
         dir = Vector2.zero;
         if(Input.GetKey(rightKey)) //si pulsas flecha derecha se mueve a la derecha
         {
