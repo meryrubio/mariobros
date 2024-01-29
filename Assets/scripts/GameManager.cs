@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    //este script controla todo
+    //este script controla todo, funcionalidad y variabbles
 
     public static GameManager instance; // accesible a todo (variable estática)
+    public enum GameManagerVariables { TIME, POINTS}; // tipo enum (enumerar) para facilitar la lectura de código, time seria 0, points 1
+
     private float time;
     private int points;
 
@@ -38,7 +41,7 @@ public class GameManager : MonoBehaviour
         time += Time.deltaTime;
     }
 
-    //getter
+    //getter (es para obtener el valor de esa variable)
     public float GetTime()
     {
         return time;
@@ -55,4 +58,9 @@ public class GameManager : MonoBehaviour
         points = value;
     }
 
+    //callback -- funcion que se va  a llamar en el onclick() de los botones
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
 }
