@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 {
     //este script controla todo, funcionalidad y variabbles
 
-    public static GameManager instance; // accesible a todo (variable estática)
+    public static GameManager instance; // accesible a todo (variable estática) SINGLETON
     public enum GameManagerVariables { TIME, POINTS}; // tipo enum (enumerar) para facilitar la lectura de código, time seria 0, points 1
 
     private float time;
@@ -62,5 +62,12 @@ public class GameManager : MonoBehaviour
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+        AudioManager.instance.ClearAudios(); // oye, audioManager, limpia todos los sonidos que estan sonando
+    }
+
+    public void ExitGame()
+    {
+        Debug.Log("EXIT!!");
+        Application.Quit();// cierra la aplicación
     }
 }
