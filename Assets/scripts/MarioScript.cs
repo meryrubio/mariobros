@@ -16,6 +16,7 @@ public class MarioScript : MonoBehaviour
     private Animator _animator;
     private Vector2 dir;
     private bool _intentionToJump;//pueda o no que tenga la intencion de saltar
+    public AudioClip jumpClip; //audio de salto
    
 
 
@@ -81,9 +82,13 @@ public class MarioScript : MonoBehaviour
             _animator.Play("jump");// necesitamos esto ya que somos nosotros los que iniciamos el salto
             rb.velocity = new Vector2(rb.velocity.x, 0); // sirve para que el personaje mantenga siempre la misma potencia de salto  (100,-100)
             rb.AddForce(Vector2.up * jumpForce * rb.gravityScale * rb.drag, ForceMode2D.Impulse); // rb.drag es la linea de rozqamiento, por lo que al multiplicar por ella no desliza el personaje.
+            
+            AudioManager.instance.PlayAudio(jumpClip, "jumpSound");
         }
         _animator.SetBool("walkanim", grnd);
     }
+
+    
 
     private bool IsGrounded() // se lanza un rayo desde el personaje hacia bajo y va a detectar la mascara de colisiones que hemos establecido(detectar el suelo)
     {

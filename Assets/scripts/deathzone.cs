@@ -22,8 +22,8 @@ public class deathzone : MonoBehaviour
         // Verifica si la colisión es con el esqueleto.
         if(collision.GetComponent<MarioScript>())
         {
-            // Reinicia la escena.
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            // Reinicia y limpia la escena de objetos y audios.
+            GameManager.instance.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }

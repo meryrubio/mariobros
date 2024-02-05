@@ -609,6 +609,7 @@ GameObject:
   - component: {fileID: 870743919}
   - component: {fileID: 870743923}
   - component: {fileID: 870743924}
+  - component: {fileID: 870743925}
   m_Layer: 0
   m_Name: esqueleto
   m_TagString: Untagged
@@ -637,6 +638,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 8
+  jumpClip: {fileID: 8300000, guid: 38a282064ead8a64dbd9979364fd1e03, type: 3}
 --- !u!50 &870743920
 Rigidbody2D:
   serializedVersion: 4
@@ -797,6 +799,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &870743925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870743918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c55638623641994aa5994938c6aed2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &973843675
 GameObject:
   m_ObjectHideFlags: 0
@@ -2082,10 +2096,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 997dea01041074c45bbf5a3de85fb75c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClip: {fileID: 8300000, guid: 5e99364a135790d46a15a9d2a64ee465, type: 3}
+  audioClip: {fileID: 8300000, guid: 568631c0e902ef746a35175d7acb2a65, type: 3}
   isLoop: 1
   playOnGameStart: 1
-  volume: 1
+  volume: 0.2
   gameObjectName: gameMusic
 --- !u!4 &1702207012
 Transform:

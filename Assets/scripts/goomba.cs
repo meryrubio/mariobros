@@ -47,7 +47,8 @@ public class goomba : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<MarioScript>()) // lo que se choca con el goomba es el esqueleto
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // reinicia la escena
+            // Reinicia y limpia la escena de objetos y audios.
+            GameManager.instance.LoadScene(SceneManager.GetActiveScene().name);
 
         }
     }
