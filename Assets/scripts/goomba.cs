@@ -9,6 +9,7 @@ public class goomba : MonoBehaviour
     public float speed;
     public Transform esqueleto;
     private SpriteRenderer _rend;// se asigna el Transform del esqueleto desde el inspector en el script del goomba
+    public AudioClip deadClip; //audio de muerte
 
     // Start is called before the first frame update
     void Start()
@@ -49,6 +50,9 @@ public class goomba : MonoBehaviour
         {
             // Reinicia y limpia la escena de objetos y audios.
             GameManager.instance.LoadScene(SceneManager.GetActiveScene().name);
+            GameManager.instance.ResetTime();// el contador se reinicia cada vez que mario muere
+
+            AudioManager.instance.PlayAudio(deadClip, "deadSound"); //cuando mario choca con el goomba se reproduce sonido de muerte
 
         }
     }

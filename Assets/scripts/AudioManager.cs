@@ -50,6 +50,14 @@ public class AudioManager : MonoBehaviour
         return audioSourceComponent; // porsiaca  desde otros componentes queremos utilizar otros parametros del AudioSource
     }
 
+    public AudioSource PlayAudio3D(AudioClip audioClip, string gameObjectName, bool isLoop = false, float volume = 1.0f)
+    {
+        AudioSource audioSorce = PlayAudio(audioClip, gameObjectName, isLoop, volume);
+        audioSorce.spatialBlend = 1f;
+
+        return audioSorce;
+    }
+
     //IEnumerator --> es una **corrutina, es un mecanismo que tiene unity para simular una especie de hilos y procesos (unity no tinene hilos y procesos) 
     IEnumerator WaitAudioEnd(AudioSource src) //esperar a que el audio acabe
     {

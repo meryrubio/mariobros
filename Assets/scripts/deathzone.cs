@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class deathzone : MonoBehaviour
 {
+
+    public AudioClip deadClip; //audio de muerte
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +27,9 @@ public class deathzone : MonoBehaviour
         {
             // Reinicia y limpia la escena de objetos y audios.
             GameManager.instance.LoadScene(SceneManager.GetActiveScene().name);
+            GameManager.instance.ResetTime();// el contador se reinicia cada vez que mario muere
+
+            AudioManager.instance.PlayAudio(deadClip, "deadSound"); //se reproduce sonido de muerte
         }
     }
 }

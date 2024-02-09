@@ -26,7 +26,7 @@ public class changelevel : MonoBehaviour
         if (collision.GetComponent<MarioScript>())
         {
             // cambia la escena
-            SceneManager.LoadScene(levelToLoad);
+            GameManager.instance.LoadScene(levelToLoad);
         }
     }
 }

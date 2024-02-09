@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 229151273}
   - component: {fileID: 229151272}
   m_Layer: 0
-  m_Name: 360_F_573869438_VIjKt0t5GQ4oxnVW6IBrxXYhQOsyK9My
+  m_Name: you win
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -440,7 +440,7 @@ GameObject:
   - component: {fileID: 759056877}
   - component: {fileID: 759056876}
   m_Layer: 0
-  m_Name: istockphoto-1434200384-612x612
+  m_Name: foto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -705,6 +705,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 8
+  jumpClip: {fileID: 0}
 --- !u!50 &1981050500
 Rigidbody2D:
   serializedVersion: 4

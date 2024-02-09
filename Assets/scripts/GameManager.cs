@@ -46,6 +46,10 @@ public class GameManager : MonoBehaviour
     {
         return time;
     }
+    public void ResetTime() //para qyue el gamemanager reinicie el contador cada vez que se reinicia la escena.
+    {
+        time = 0;
+    }
 
     public int GetPoints()
     {
@@ -70,4 +74,5 @@ public class GameManager : MonoBehaviour
         Debug.Log("EXIT!!");
         Application.Quit();// cierra la aplicación
     }
+    //EventSystem detecta los clicks 
 }
