@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     private float time;
     private int points;
 
+
     private void Awake()
     {
         if (!instance)// si instance no tiene info
@@ -51,9 +52,15 @@ public class GameManager : MonoBehaviour
         time = 0;
     }
 
+    public void IncreaseScore(int amount) // este metodo sirve para que los puntos puedan ir amuentando
+    {
+        points += amount;
+    }    
     public int GetPoints()
     {
+
         return points;
+
     }
 
     //setter

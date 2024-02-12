@@ -2,17 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro; //avisar al código de que vas a utlizar otro código que esta en otra localización
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class NewBehaviourScript : MonoBehaviour
 {
     public GameManager.GameManagerVariables variable;
 
+    
     private TMP_Text textComponent;
 
     // Start is called before the first frame update
     private void Start()
     {
         textComponent = GetComponent<TMP_Text>();
+        
     }
 
     // Update is called once per frame
@@ -23,10 +26,10 @@ public class NewBehaviourScript : MonoBehaviour
         switch (variable) //
         {
             case GameManager.GameManagerVariables.TIME:
-                textComponent.text = "Time: " + GameManager.instance.GetTime();
+                textComponent.text = "Time: " + GameManager.instance.GetTime().ToString("0.00"); // se añade el tostring para que devuelva una representacion de la barra de tiempo con solo dos decimales
                 break;
             case GameManager.GameManagerVariables.POINTS:
-                textComponent.text = "Points: " + GameManager.instance.GetPoints();
+                textComponent.text = "Points: " + GameManager.instance.GetPoints().ToString();
                 break;
             default:
                 break;
