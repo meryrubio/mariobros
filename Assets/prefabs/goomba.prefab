@@ -246,6 +246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   esqueleto: {fileID: 0}
+  deadClip: {fileID: 0}
 --- !u!50 &6769212500077116907
 Rigidbody2D:
   serializedVersion: 4
