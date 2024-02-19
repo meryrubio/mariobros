@@ -930,6 +930,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   jumpClip: {fileID: 8300000, guid: 38a282064ead8a64dbd9979364fd1e03, type: 3}
+  maxJumps: 2
+  currentJumps: 0
 --- !u!50 &870743920
 Rigidbody2D:
   serializedVersion: 4

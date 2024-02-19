@@ -58,7 +58,7 @@ public class AudioManager : MonoBehaviour
         return audioSorce;
     }
 
-    //IEnumerator --> es una **corrutina, es un mecanismo que tiene unity para simular una especie de hilos y procesos (unity no tinene hilos y procesos) 
+    //IEnumerator --> es una **corrutina, es un mecanismo que tiene unity para simular una especie de hilos y procesos (unity no tinene hilos y procesos); permite ejecutarse en cada frame o, si queremos que espere un cierto numero de segundos antes de continuar su ejecucion.
     IEnumerator WaitAudioEnd(AudioSource src) //esperar a que el audio acabe
     {
         while(src && src.isPlaying)

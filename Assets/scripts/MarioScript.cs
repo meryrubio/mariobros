@@ -17,6 +17,8 @@ public class MarioScript : MonoBehaviour
     private Vector2 dir;
     private bool _intentionToJump;//pueda o no que tenga la intencion de saltar
     public AudioClip jumpClip; //audio de salto
+    public int maxJumps = 2; // numero de saltos maximos que puede dar el jugador
+    public int currentJumps = 0; // indica el numero de saltoa Actuales que lleva el jugador en el momento
    
 
 
@@ -46,8 +48,7 @@ public class MarioScript : MonoBehaviour
             dir = new Vector2(-1, 0);
         }
 
-        _intentionToJump = false; //si pulsas espacio el personaje salta
-        if(Input.GetKey(jumpKey))
+        if(Input.GetKeyDown(jumpKey))
         {
             _intentionToJump = true;
         }
@@ -77,15 +78,19 @@ public class MarioScript : MonoBehaviour
             
         }
         
-        if(_intentionToJump && IsGrounded()) //lo mete en el fixe update por fisicas
+        if(_intentionToJump && ( grnd || currentJumps < maxJumps)) //esta en el suelo o no ha llegado aun al numero maximo de saltos / lo mete en el fixe update por fisicas
         {
+            
             _animator.Play("jump");// necesitamos esto ya que somos nosotros los que iniciamos el salto
             rb.velocity = new Vector2(rb.velocity.x, 0); // sirve para que el personaje mantenga siempre la misma potencia de salto  (100,-100)
             rb.AddForce(Vector2.up * jumpForce * rb.gravityScale * rb.drag, ForceMode2D.Impulse); // rb.drag es la linea de rozqamiento, por lo que al multiplicar por ella no desliza el personaje.
             
+            currentJumps++; //le suma uno a la variable (currentJumps = currentJumps + 1)
+
             AudioManager.instance.PlayAudio(jumpClip, "jumpSound");
         }
         _animator.SetBool("walkanim", grnd);
+        _intentionToJump = false;
     }
 
     
@@ -95,6 +100,7 @@ public class MarioScript : MonoBehaviour
         RaycastHit2D collision = Physics2D.Raycast(transform.position, Vector2.down, rayDistance, groundMask);
         if (collision)
         {
+            currentJumps = 0; //reinicia el currentJump
             return true;
         }
         return false;
