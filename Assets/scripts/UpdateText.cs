@@ -1,4 +1,4 @@
-using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
 using TMPro; //avisar al código de que vas a utlizar otro código que esta en otra localización
 using UnityEngine;
